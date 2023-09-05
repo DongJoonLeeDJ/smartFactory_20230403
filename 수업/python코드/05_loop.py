@@ -22,3 +22,16 @@ for item in range(1,101):
     print(f"item={item}")
 print(item)
 print(item)
+
+information = [('이동준','남성'),('남효정','여성'),('이승봉','여성'),('박예은','여성'),('박유상','남성'),('한신철','남성')]
+
+for item in information:
+    print(item)
+for a,b in information:
+    print(f"이름:{a},성별:{b}")
+
+info = [('이동준','남성','C#'),('안혜선','여성','java')]
+
+for a,b,c in info:
+    print("이름:"+a+",성별:"+b+",자신있는언어:"+c)
+    print(f"이름:{a},성별:{b},자신있는언어:{c}")
